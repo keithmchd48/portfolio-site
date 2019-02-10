@@ -10,7 +10,6 @@ import Error from '../error.js'
 function Main(){
     return(
         <Switch>
-            <Route exact path="/home" component={Landing} />
             <Route exact path="/" component={Landing} />
             <Route exact path="/aboutme" component={About} />
             <Route exact path="/resume" component={Resume} />

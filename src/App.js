@@ -9,9 +9,9 @@ class App extends Component {
     return (
         <div className="demo-big-content">
             <Layout>
-                <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/home">Keith Machado</Link>} scroll>
+                <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Keith Machado</Link>} scroll>
                     <Navigation>
-                        <Link to="/home">Home</Link>
+                        <Link to="/">Home</Link>
                         <Link to="/contact">Contact</Link>
                         <Link to="/resume">Resume</Link>
                         {/* <Link to="/projects">Projects</Link> */}
@@ -20,9 +20,9 @@ class App extends Component {
                 <Drawer style={{background: '#f7ff00',  /* fallback for old browsers */
                                 background: '-webkit-linear-gradient(to right, #db36a4, #f7ff00)',  /* Chrome 10-25, Safari 5.1-6 */
                                 background: 'linear-gradient(to right, #db36a4, #f7ff00)' /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */}} 
-                                title={<Link style={{textDecoration: 'none', color: 'white'}} to="/home">Keith Machado</Link>} >
+                                title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Keith Machado</Link>} >
                     <Navigation>
-                        <Link style={{color: 'white'}} to="/home">Home</Link>
+                        <Link style={{color: 'white'}} to="/">Home</Link>
                         <Link style={{color: 'white'}} to="/contact">Contact</Link>
                         <Link style={{color: 'white'}} to="/resume">Resume</Link>
                         {/* <Link to="/projects">Projects</Link> */}
