@@ -1,0 +1,232 @@
+.header-color{
+    background: #f7ff00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #db36a4, #f7ff00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #db36a4, #f7ff00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/*RESUME PAGE*/
+
+.resume-background{
+    background: #fff;
+}
+
+.resume-right-col{
+    background: #27221f;
+    color: white;
+    padding: 2em;
+}
+
+.resume-left-col{
+    background: #27221f;
+    color: white;
+    padding: 2em;
+}
+
+/*LANDING PAGE*/
+.landing-grid{
+    background: #f7ff00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #db36a4, #f7ff00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #db36a4, #f7ff00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.avatar-img{
+    height: 250px;
+    padding-top: 0em;
+}
+
+.banner-text{
+    background-color: black;
+    opacity: .8;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.banner-text h1{
+    font-size: 66px;
+    font-weight: bold;
+    color: white;
+}
+
+.banner-text hr{
+    border-top: 5px dotted white;
+    width: 50%;
+    margin: auto;
+}
+
+.banner-text p{
+    color: white;
+    font-size: 20px;
+    padding: 1em;
+}
+
+.social-links{
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+    margin: auto;
+}
+
+.social-links i{
+    color: white;
+    font-size: 3em;
+    padding: 8px;
+}
+/*CONTACT PAGE*/
+.contact-body{
+    margin: auto;
+    background: #fff;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    /* padding-top: 5em; */
+}
+
+.contact-cols{
+    background: #27221f;
+}
+.contact-grid{
+    text-align: center;
+    /* justify-content: center; */
+    width: 100%;
+    height: 100%;
+    background: white;
+    color: black;
+    /* margin-bottom: 20px; */
+}
+
+.contact-grid h2{
+    font-family: 'Anton', sans-serif;
+    color: white;
+}
+
+.contact-grid h5{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+.contact-grid p{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+}
+
+.contact-grid hr{
+    border-top: 5px dotted white;
+    width: 50%;
+    margin: auto;    
+}
+
+.contact-list i{
+    font-size: 50px;
+    padding-top: 4rem;
+    padding-right: 1rem;
+    margin-left: 10rem;
+    color: white;
+}
+/*FOR ERROR PAGE*/
+#notfound {
+    position: relative;
+    height: 100vh;
+    background: #833ab4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  
+  #notfound .notfound {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  
+  .notfound {
+    max-width: 767px;
+    width: 100%;
+    line-height: 1.4;
+    text-align: center;
+  }
+  
+  .notfound .notfound-404 {
+    position: relative;
+    height: 180px;
+    margin-bottom: 20px;
+    z-index: -1;
+  }
+  
+  .notfound .notfound-404 h1 {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    -webkit-transform: translate(-50% , -50%);
+        -ms-transform: translate(-50% , -50%);
+            transform: translate(-50% , -50%);
+    font-size: 224px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: -12px;
+    color: #030005;
+    text-transform: uppercase;
+    text-shadow: -1px -1px 0px #8400ff, 1px 1px 0px #ff005a;
+    letter-spacing: -20px;
+  }
+  
+  
+  .notfound .notfound-404 h2 {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 110px;
+    font-size: 42px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 0px 2px 0px #8400ff;
+    letter-spacing: 13px;
+    margin: 0;
+  }
+  
+  .notfound a {
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #511892;
+    text-decoration: none;
+    border: 2px solid;
+    background: transparent;
+    padding: 10px 40px;
+    font-size: 14px;
+    font-weight: 700;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+  }
+  
+  .notfound a:hover {
+    color: black;
+  }
+  
+  @media only screen and (max-width: 767px) {
+      .notfound .notfound-404 h2 {
+          font-size: 24px;
+      }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .notfound .notfound-404 h1 {
+        font-size: 182px;
+    }
+  }
+  
